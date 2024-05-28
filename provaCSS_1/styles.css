@@ -1,0 +1,65 @@
+
+/* Resetando Valores */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 25px;
+    color: #fff; 
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container{
+    padding: 50px;
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+}
+
+.card{
+    padding: 15px;
+    border: 2px solid darkgreen;
+    margin: 70px 20px;
+    flex: 1;
+}
+
+.teamImage{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size:cover;
+}
+
+#img-1{
+    background-image: url('img/palmeirasImage.jpg');
+}
+#img-2{
+    background-image: url('img/flamengoImage.jpg');
+}
+#img-3{
+    background-image: url('img/corinthiansImage.jpg');
+}
+#img-4{
+    background-image: url('img/atleticoImage.jpg');
+}
+
+/* Rodapé */
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
